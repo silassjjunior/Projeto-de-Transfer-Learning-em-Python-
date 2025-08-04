@@ -36,7 +36,9 @@ Utilizando dessa logica para entender o Fluxo de Machine Learning e Transfer Lea
 2. Siga os passos dentro do notebook:
 
    Clique em Executar Tudo
+   
    Adicione uma Imagem (Modelo de Teste Disponivel)
+   
    Aguarde os Resultados.
 
 ---
