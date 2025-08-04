@@ -1,4 +1,4 @@
-# 🧠 Detecção e Classificação de Gatos e Cachorros com YOLOv5 + MobileNetV2
+# 🧠 Detecção e Classificação de Gatos e Cachorros com YOLOv8 + MobileNetV2
 
 Este projeto combina **detecção de objetos** com **transfer learning**, usando **YOLOv8** para localizar animais em imagens e **MobileNetV2** treinado com pesos do **ImageNet** para classificá-los com mais precisão.
 
@@ -6,7 +6,7 @@ Este projeto combina **detecção de objetos** com **transfer learning**, usando
 
 ## 📌 Descrição Rápida
 
-Aplicamos **YOLOv5** para detectar regiões contendo gatos ou cachorros recortá-las e classifica-las com um % de precisão. 
+Aplicamos **YOLOv8** para detectar regiões contendo gatos ou cachorros recortá-las e classifica-las com um % de precisão. 
 Em seguida, utilizamos **MobileNetV2**, uma rede pré-treinada com pesos do **ImageNet**, para realizar a classificação com maior acurácia. Essa abordagem simula sistemas reais de visão computacional.
 Reajustamos a Ultima camada para detectar apenas Gatos e Cachorros.
 Fizemos um Treinamento com o Dataset Cats and Dogs do TensorFlow
@@ -23,7 +23,7 @@ Utilizando dessa logica para entender o Fluxo de Machine Learning e Transfer Lea
 - `Google Colab`
 - `TensorFlow / Keras`
 - `PyTorch`
-- `YOLOv5`
+- `YOLOv8`
 - `MobileNetV2`
 - `ImagiNet`
 - `Matplotlib`, `NumPy`
